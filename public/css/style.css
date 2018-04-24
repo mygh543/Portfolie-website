@@ -1,1 +1,27 @@
-style.css
+body {
+	font-family: Lato;
+	margin: 0; 
+}
+header nav ul{
+	list-style: none;
+	display: flex;
+}
+header nav ul li {
+	display: flex;
+	justify-content: center;
+}
+header nav ul li a {
+	text-decoration: none;
+	justify-content: space-between;
+	padding: 0.4em;
+}
+.navigation {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	font-size: 1.35em;
+}
+.active {
+	border-bottom: 1px solid #000000;
+}
