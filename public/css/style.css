@@ -35,7 +35,15 @@ header nav ul li a {
 header nav ul li:last-child {
     border: none;
 }
-
+.btn {
+	border-radius: 0.4em;
+	padding: 0.4em;
+	border-style: double;
+}
+.btn-primary {
+	background-color: #ffffff;
+	color: #000000;
+}
 .navigation {
 	display: flex;
 	justify-content: center;
@@ -52,7 +60,7 @@ header nav ul li:last-child {
 	flex-direction: column
 }
 .hero-video {
-	max-height: 600px;
+	max-height: 800px;
   	display: flex;
 }
 .hero {
